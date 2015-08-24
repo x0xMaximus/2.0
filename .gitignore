@@ -6,3 +6,11 @@ fortran/fortran_demo
 haskell/demo
 intercal/demo
 ocaml/demo
+erlang/demo.beam
+erlang/erl_crash.dump
+fortran/class_circle.mod
+haskell/demo.hi
+haskell/demo.o
+java/Demo.class
+ocaml/demo.cmi
+ocaml/demo.cmo
