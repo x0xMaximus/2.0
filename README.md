@@ -1,47 +1,18 @@
-$ gcc -o c_demo demo.c
-$ ./c_demo
+# 2.0
 
-$ g++ -o cpp_demo demo.cpp
-$ ./cpp_demo
+## Description
 
-$ javac Demo.java
-$ java Demo
+Software is an extremely fragile construct of human language. The most robust and monumental works of software today can be crippled with a minor version update.
 
-$ apt-get install open-cobol
-$ cobc -free -x -o cbl_demo demo.cbl
-$ ./cbl_demo
+Advanced Packaging Tool has been around since 1998 and is a community standard for updating software on Debian GNU/Linux distributions and variants – the types of machines that often act as servers and run other utility based services.
 
-$ apt-get install erlang
-$ erlc demo.erl
-$ erl -noshell -s demo start -s init stop
+A diverse set of programs in a wide range of different languages are continually executed after advanced packaging tool checks for updates.
 
-$ apt-get install ghc6 ghc6-prof ghc6-doc
-$ ghc -O2 --make demo.hs -threaded -rtsopts
-$ ./demo
+The work is a performance of fragility. A countdown until the contemporary version of computational vernacular is simplified or altered further to the point that the software can no longer function.
 
-$ apt-get install gfortran
-$ gfortran -o fortran_demo demo.f03
-$ ./fortran_demo
+Upon compilation failure will the performance be considered complete.
 
-$ apt-get install intercal
-$ ick demo.i
-$ ./demo
+## About
 
-$ apt-get install ocaml
-$ ocamlc -o demo demo.ml
-$ ./demo
-
-$ apt-get install php
-$ php demo.php
-
-$ (todo) install golang?
-$ go run main.go
-
-$ perl demo.pl
-
-$ ruby demo.rb
-
-$ python demo.py
-
-$ node demo.js
+[2.0](https://github.com/x0xMaximus/2.0) is [distributed under the MIT License](https://github.com/x0xMaximus/2.0/blob/master/LICENSE).
 
