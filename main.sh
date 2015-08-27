@@ -37,7 +37,26 @@ while true; do
   author
   printf "${GREEN}[LOG] Installing Dependencies${NC}\n"
   printf "${LIGHT_RED}"
+
   #sudo apt-get --yes install java open-cobol erlang ghc6 ghc6-prof ghc6-doc gfortran intercal ocaml php golang python nodejs ruby
+  brew update
+  brew upgrade
+
+  brew install gcc
+  #brew install g++
+  #brew install gcc45 --enable-cxx
+  brew install Caskroom/cask/java
+  brew install java app-engine-java-sdk javarepl jslint4java libreadline-java
+  brew install open-cobol
+  brew install intercal
+  brew install erlang
+  brew install haskell-stack
+  brew install ocaml
+  brew install go
+  #brew install gfortran 
+  brew install ruby
+  brew install python
+  brew install nodejs
 
   printf "${GREEN}[LOG] Running C${NC}\n"
   cd c
