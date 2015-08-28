@@ -51,6 +51,7 @@ while true; do
   brew install intercal
   brew install erlang
   brew install haskell-stack
+  brew install ghc
   brew install ocaml
   brew install go
   #brew install gfortran 
@@ -64,7 +65,7 @@ while true; do
   gcc -o c_demo demo.c
   ./c_demo
   cd ../
-  sleep 2
+  sleep 3
 
   printf "${GREEN}[LOG] Running C++${NC}\n"
   cd cpp
@@ -72,7 +73,7 @@ while true; do
   g++ -o cpp_demo demo.cpp
   ./cpp_demo
   cd ../
-  sleep 2
+  sleep 3
 
   printf "${GREEN}[LOG] Running JAVA${NC}\n"
   cd java
@@ -80,7 +81,7 @@ while true; do
   javac Demo.java
   java Demo
   cd ../
-  sleep 2
+  sleep 3
 
   printf "${GREEN}[LOG] Running COBOL${NC}\n"
   cd cobol
@@ -88,7 +89,7 @@ while true; do
   cobc -free -x -o cbl_demo demo.cbl
   ./cbl_demo
   cd ../
-  sleep 2
+  sleep 3
 
   printf "${GREEN}[LOG] Running ERLANG${NC}\n"
   cd erlang
@@ -96,7 +97,7 @@ while true; do
   erlc demo.erl
   erl -noshell -s demo start -s init stop
   cd ../
-  sleep 2
+  sleep 3
 
   printf "${GREEN}[LOG] Running HASKELL${NC}\n"
   cd haskell
@@ -104,7 +105,7 @@ while true; do
   ghc -O2 --make demo.hs -threaded -rtsopts
   ./demo
   cd ../
-  sleep 2
+  sleep 3
 
   printf "${GREEN}[LOG] Running INTERCAL${NC}\n"
   cd intercal
@@ -112,7 +113,7 @@ while true; do
   ick demo.i
   ./demo
   cd ../
-  sleep 2
+  sleep 3
 
   printf "${GREEN}[LOG] Running OCAML${NC}\n"
   cd ocaml
@@ -120,21 +121,21 @@ while true; do
   ocamlc -o demo demo.ml
   ./demo
   cd ../
-  sleep 2
+  sleep 3
 
   printf "${GREEN}[LOG] Running PHP${NC}\n"
   cd php
   printf "${BLUE}"
   php demo.php
   cd ../
-  sleep 2
+  sleep 3
 
   printf "${GREEN}[LOG] Running GO${NC}\n"
   cd go
   printf "${BLUE}"
   go run main.go
   cd ../
-  sleep 2
+  sleep 3
 
   printf "${GREEN}[LOG] Running FORTRAN${NC}\n"
   cd fortran
@@ -142,35 +143,35 @@ while true; do
   gfortran -o fortran_demo demo.f03
   ./fortran_demo
   cd ../
-  sleep 2
+  sleep 3
 
   printf "${GREEN}[LOG] Running PERL${NC}\n"
   cd perl
   printf "${BLUE}"
   perl demo.pl
   cd ../
-  sleep 2
+  sleep 3
 
   printf "${GREEN}[LOG] Running RUBY${NC}\n"
   cd ruby
   printf "${BLUE}"
   ruby demo.rb
   cd ../
-  sleep 2
+  sleep 3
 
   printf "${GREEN}[LOG] Running PYTHON${NC}\n"
   cd python
   printf "${BLUE}"
   python demo.py
   cd ../
-  sleep 2
+  sleep 3
 
   printf "${GREEN}[LOG] Running NODE.JS${NC}\n"
   cd nodejs
   printf "${BLUE}"
   node demo.js
   cd ../
-  sleep 2
+  sleep 3
 
   printf ${CYAN}
   for i in {1..100}
